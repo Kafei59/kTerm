@@ -1,0 +1,22 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}{{ parent() }} - Index{% endblock %}
+
+{% block body %}
+    <div id="main" class="container-fluid">
+        <div class="computed-line">
+            <p> [{{ 'now' | date('H:i:s') }}] Hello you ... Welcome in kTerm, what can I do for youuuuu uu u u uu u u u uuuuuuuuuuuuuuuuuuu u 010101010101111101010101010101010101010</p>
+        </div>
+
+        <div class="empty-line">
+            <br>
+        </div>
+
+        <div id="last-line" class="line">
+            <p>
+                <span class="term">{{ 'now' | date('H:i:s') }}@kTerm $ </span>
+                <span class="content"></span><span class="prompt">&nbsp;&nbsp;</span>
+            </p>
+        </div>
+    </div>
+{% endblock %}

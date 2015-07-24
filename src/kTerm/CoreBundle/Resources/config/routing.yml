@@ -1,0 +1,7 @@
+kTerm_core_index:
+    path:     /
+    defaults: { _controller: kTermCoreBundle:Default:index }
+
+kTerm_core_test:
+    path:     /index.html
+    defaults: { _controller: kTermCoreBundle:Default:index }
